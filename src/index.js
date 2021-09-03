@@ -43,6 +43,6 @@ app.use(rutas)
 app.use(express.static(path.join(__dirname + "/public/images")))
 
 app.listen(PORT, () => {
-	console.log(`servidor ejecutandose en  http://localhost:${PORT}`)
+	console.log(`Servidor ejecutandose en  http://localhost:${PORT}`)
 	console.log("Nombre de  la App: " + app.get("appName"))
 })
