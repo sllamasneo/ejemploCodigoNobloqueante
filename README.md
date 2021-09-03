@@ -4,10 +4,10 @@
 
 Implementación de ejemplo de carga de imágenes
 
-Installation
+#Installation
 
-$ npm i
+npm i
 
-Usage
+#Usage
 
 npm run dev
