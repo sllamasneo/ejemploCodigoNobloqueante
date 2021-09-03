@@ -1,6 +1,6 @@
 <!-- @format -->
 
-# ejemploCodigoNobloqueante
+# EjemploCodigoNobloqueante
 
 Implementación de ejemplo de carga de imágenes
 
