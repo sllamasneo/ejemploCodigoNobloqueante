@@ -1,2 +1,11 @@
+<!-- @format -->
+
 # ejemploCodigoNobloqueante
-codigo no bloqueante
+
+Implementación de ejemplo de carga de imágenes
+
+Installation
+$ npm i
+
+Usage
+npm run dev
