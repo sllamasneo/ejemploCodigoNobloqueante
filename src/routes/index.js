@@ -3,7 +3,7 @@ const express = require("express")
 const router = express.Router()
 const { cacheInit } = require("../middleware/cache")
 
-// Este método  va a mostrar  el index en 7 segundo  peor solo será la primera vez, ya que usando el caché  será inmediato
+// Este método  va a mostrar  el index en 7 segundo  pero solo será la primera vez, ya que usando el caché  será inmediato
 router.get("/", cacheInit, (req, res) => {
 	console.log("si estoy entrando ")
 	setTimeout(() => {
