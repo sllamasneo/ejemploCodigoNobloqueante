@@ -1,10 +1,14 @@
 /** @format */
 const express = require("express")
 const router = express.Router()
+const { cacheInit } = require("../middleware/cache")
 
-router.get("/", (req, res) => {
+// Este método  va a mostrar  el index en 7 segundo  peor solo será la primera vez, ya que usando el caché  será inmediato
+router.get("/", cacheInit, (req, res) => {
 	console.log("si estoy entrando ")
-	res.render("index")
+	setTimeout(() => {
+		res.render("index")
+	}, 7000)
 })
 
 router.post("/update", (req, res) => {
