@@ -4,6 +4,7 @@
 	"description": "Proyecto de Api REST",
 	"main": "index.js",
 	"scripts": {
+		"test": "jest",
 		"start": "node  src/index.js",
 		"dev": "nodemon src/index.js"
 	},
@@ -18,6 +19,7 @@
 		"uuid": "^8.3.2"
 	},
 	"devDependencies": {
+		"jest": "^27.1.1",
 		"nodemon": "^2.0.12"
 	}
 }
