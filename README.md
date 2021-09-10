@@ -12,6 +12,7 @@ npm i
 
 npm run dev
 
+# Usage test
 npm test
 
 # Cache control references
