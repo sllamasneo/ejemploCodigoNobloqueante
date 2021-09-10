@@ -2,7 +2,7 @@
 
 const pass = require("../src/contraseña")
 
-const contraseña = "SalvadorLLamas3*"
+const contraseña = "SalvadorLL"
 
 describe("Test de la caontrseña -- " + contraseña, () => {
 	test("No tiene datos null", () => {
@@ -15,7 +15,7 @@ describe("Test de la caontrseña -- " + contraseña, () => {
 		expect(contraseña).toMatch(/^(?=.*?[A-Z])/)
 	})
 	test("Contiene  carácters no alfanumérico  = " + contraseña, () => {
-		expect(contraseña).toMatch(/^(?=.*?[#?!@$%^&*-])/)
+		expect(contraseña).toMatch(/^(?=.*[\u0021-\u002b\u003c-\u0040])/)
 	})
 	test("Contiene al menos un dígito = " + contraseña, () => {
 		expect(contraseña).toMatch(/^(?=.*?[0-9])/)
