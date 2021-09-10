@@ -8,7 +8,7 @@ Implementación de ejemplo de carga de imágenes
 
 npm i
 
-# Usage
+# Usage app
 
 npm run dev
 
@@ -16,5 +16,4 @@ npm run dev
 npm test
 
 # Cache control references
-
 https://github.com/evanshortiss/express-expeditious
