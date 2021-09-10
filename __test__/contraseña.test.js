@@ -2,7 +2,7 @@
 
 const pass = require("../src/contraseña")
 
-const contraseña = "SalvadorLL"
+const contraseña = "SalvadorLL#2"
 
 describe("Test de la caontrseña -- " + contraseña, () => {
 	test("No tiene datos null", () => {
